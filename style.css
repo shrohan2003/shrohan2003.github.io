@@ -12,3 +12,6 @@ figure{background:#131a16;border-color:#53644f;box-shadow:8px 8px 0 #273a29;tran
 .featured{background:linear-gradient(115deg,#182c22,#112017);border:1px solid #48604c;border-left:4px solid var(--accent)}.sequence b{background:#24362a;color:#e9f7e8}.sequence .cancel{background:var(--accent);color:#14250d}.projects{gap:0 7%}.projects article{border-bottom:1px solid var(--edge);padding:24px 0}.projects a,.featured a,.row a{color:var(--accent)}
 .life{display:grid;grid-template-columns:1fr 1fr;gap:8%}.life h2{font-family:system-ui,sans-serif;font-size:clamp(34px,4.2vw,60px);line-height:1.35;margin:0}.life h2 span,footer span{color:var(--accent)}.life .translation{font:italic 24px Georgia,serif;margin:8px 0}.life h3{margin-top:8px}footer{background:#151c17;color:var(--ink);border-top:1px solid var(--edge)}footer a:hover{color:var(--accent)}
 a:focus-visible{outline-color:var(--accent)}@media(max-width:720px){.social{gap:0 16px}.life{grid-template-columns:1fr;gap:18px}.hero{padding-block:38px}.hero figure{width:min(85%,320px)}header nav{gap:12px}}
+
+.about h3:not(:first-child),.life p+h3{margin-top:1.25em}
+.life h2{font-family:'Instrument Serif',Georgia,serif}
