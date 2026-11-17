@@ -20,3 +20,11 @@ a:focus-visible{outline-color:var(--accent)}@media(max-width:720px){.social{gap:
 @media(max-width:420px){header{flex-wrap:wrap;gap:10px}}.pr-links,.gallery-controls{display:flex;gap:.65rem;align-items:center;flex-wrap:wrap}
 #portrait-link{display:block;cursor:zoom-in}
 dialog{width:min(90vw,720px);box-sizing:border-box;background:#101512;color:var(--ink);border:1px solid var(--edge);padding:12px}dialog::backdrop{background:#000d}dialog form{text-align:right;margin-bottom:8px}#full-photo{width:100%;height:min(68vh,650px);object-fit:contain;display:block}.gallery-controls{justify-content:space-between;margin-top:8px}dialog button,#more-photos{cursor:pointer;color:var(--accent);background:transparent;border:1px solid var(--edge);border-radius:3px;padding:6px 10px}
+
+@media (max-width: 720px) {
+  header { height: auto; min-height: 60px; padding-block: 8px; flex-wrap: wrap; gap: 0 16px; }
+  header nav a, .social a, .contact-links a { display: inline-flex; align-items: center; min-height: 44px; }
+  .social { padding-block: 2px; }
+  .gallery-controls button, #more-photos, dialog form button { min-height: 44px; min-width: 44px; }
+  .contact-links { gap: 4px 20px; }
+}
