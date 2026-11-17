@@ -1,7 +1,8 @@
 const photos = [
   ['linkedin.png', 'LinkedIn portrait'],
+  ['portrait.jpg', 'GitHub portrait'],
   ['facebook-profile.jpg', 'Facebook profile photo'],
-  ['portrait.jpg', 'GitHub portrait']
+  ['instagram-profile.jpg', 'Instagram profile photo']
 ];
 const dialog = document.querySelector('#gallery');
 const image = document.querySelector('#full-photo');
