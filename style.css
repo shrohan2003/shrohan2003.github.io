@@ -15,3 +15,4 @@ a:focus-visible{outline-color:var(--accent)}@media(max-width:720px){.social{gap:
 
 .about h3:not(:first-child),.life p+h3{margin-top:1.25em}
 .life h2{font-family:'Instrument Serif',Georgia,serif}
+.pr-index{margin-top:2.5rem}.pr-index details{border-top:1px solid var(--edge);padding:.7rem 0}.pr-index summary{cursor:pointer;font-weight:600}.pr-index li{margin:.65rem 0;overflow-wrap:anywhere}.pr-index small{color:var(--accent);white-space:nowrap}.pr-index ul{padding-left:1.3rem}
